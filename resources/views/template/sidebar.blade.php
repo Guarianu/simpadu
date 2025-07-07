@@ -6,7 +6,7 @@
          <a href="./index.html" class="brand-link">
            <!--begin::Brand Image-->
            <img
-             src="../assets/img/download.png"
+             src="../../assets/img/download.png"
              alt="AdminLTE Logo"
              class="brand-image opacity-75 shadow" />
            <!--end::Brand Image-->
@@ -27,7 +27,7 @@
              role="menu"
              data-accordion="false">
              <li class="nav-item">
-               <a href="index.php" class="nav-link">
+               <a href="{{ url ('mahasiswa') }}" class="nav-link">
                  <i class="bi bi-person-circle"></i>
                  <p>Mahasiswa</p>
                </a>
@@ -38,7 +38,7 @@
              role="menu"
              data-accordion="false">
              <li class="nav-item">
-               <a href="prodi.php" class="nav-link">
+               <a href="{{ url ('prodi') }}" class="nav-link">
                  <i class="bi bi-briefcase-fill"></i>
                  <p>Program Studi</p>
                </a>
